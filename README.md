@@ -34,7 +34,7 @@ In NotePad , copy below code and save it.
 start "" pythonw "C:\path\to\caps_indicator.py"
 
 Then, add that folder path to the Windows Environment Variables. (Select System Variables --> path --> select and create a new path then-->  paste the path  of caps_indicator.py )
-After saving and closing all windows, open CMD and type:    caps
+After saving and close all the windows, open CMD and type:    caps
 Press Caps Lock — you will see a silent pop‑up at the top of your screen.
 
 ## 🤝 Contributing

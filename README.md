@@ -28,13 +28,14 @@ or
 
 You can create a caps.bat file in the same folder as caps_indicator.py.
 In NotePad , copy below code and save it.
+
 @echo off
+
 start "" pythonw "C:\path\to\caps_indicator.py"
 
-Then, add that folder path to the Windows Environment Variables. (Select System in that path choose the path of caps_indicator.py )
+Then, add that folder path to the Windows Environment Variables. (Select System Variables --> path --> select and create a new path then-->  paste the path  of caps_indicator.py )
 After saving and closing all windows, open CMD and type:    caps
 Press Caps Lock — you will see a silent pop‑up at the top of your screen.
 
-or Simply add it to startup this avoids 
 ## 🤝 Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss your ideas.

@@ -6,7 +6,6 @@ This can lead to frustration — especially when typing passwords or working in 
 
 This tool solves that by providing a tiny, customizable pop‑up whenever Caps Lock state changes.
 
-
 ## ✨ Features
 - Displays a pop‑up when Caps Lock is toggled (ON/OFF)
 - Auto‑hides after 2 seconds
@@ -34,6 +33,8 @@ In NotePad , copy below code and save it.
 start "" pythonw "C:\path\to\caps_indicator.py"
 
 Then, add that folder path to the Windows Environment Variables. (Select System Variables --> path --> select and create a new path then-->  paste the path  of caps_indicator.py )
+
+Note: To stop it, Go to task manager search for python.exe or python and END TASK.
 After saving and close all the windows, open CMD and type:    caps
 Press Caps Lock — you will see a silent pop‑up at the top of your screen.
 
